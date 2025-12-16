@@ -7,11 +7,11 @@ Simultaneously achieving high energy density and efficiency in ferroelectric cer
 🚀 Key Features
 Conditional Variational Autoencoder (cVAE): Constructs a coupled search space that synergistically models chemical constraints and domain structure evolution.
 
-Latent Space Optimization: Implements a two-stage multi-objective genetic algorithm (NSGA-II) to navigate the latent space for Pareto-optimal solutions.
+1. Latent Space Optimization: Implements a two-stage multi-objective genetic algorithm (NSGA-II) to navigate the latent space for Pareto-optimal solutions.
 
-Active Learning Surrogate: Uses symbolic regression and ensemble learning (CatBoost, XGBoost, etc.) to predict energy density and efficiency with uncertainty quantification.
+2. Active Learning Surrogate: Uses symbolic regression and ensemble learning (CatBoost, XGBoost, etc.) to predict energy density and efficiency with uncertainty quantification.
 
-Phase-Field Simulation: Generate reference domain structures for training.
+3. Phase-Field Simulation: Generate reference domain structures for training.
 
 📁Repository Structure
 cVAE/: Code for training the Conditional Variational Autoencoder and reconstructing energy landscapes.
