@@ -14,6 +14,7 @@ Conditional Variational Autoencoder (cVAE): Constructs a coupled search space th
 3. Phase-Field Simulation: Generate reference domain structures for training.
 
 📁Repository Structure
+
 cVAE/: Code for training the Conditional Variational Autoencoder and reconstructing energy landscapes.
 
 ActiveLearning/: Surrogate model training, uncertainty quantification.
