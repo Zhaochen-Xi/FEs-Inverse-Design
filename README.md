@@ -19,6 +19,6 @@ Conditional Variational Autoencoder (cVAE): Constructs a coupled search space th
 
 cVAE/: Code for training the Conditional Variational Autoencoder and reconstructing energy landscapes.
 
-ActiveLearning/: Surrogate model training, uncertainty quantification.
+ActiveLearning/: Latent space optimization algorithm, Surrogate model as fitness function of optimization algorithm, uncertainty quantification.
 
-README/
+README/: Docs
