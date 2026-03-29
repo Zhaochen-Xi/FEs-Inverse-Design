@@ -1,5 +1,5 @@
 # FEs-Inverse-Design
-This repository contains the source code and datasets for the research paper: "Active learning in latent spaces enables rapid inverse design of ferroelectric ceramics for energy storage".
+This repository contains the source code and datasets for the research paper: "Active learning in latent spaces enables rapid inverse design of ferroelectric ceramics for energy storage. Nat Commun (2026). https://doi.org/10.1038/s41467-026-70792-7".
 
 
 ---
