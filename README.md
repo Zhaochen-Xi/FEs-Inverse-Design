@@ -1,5 +1,5 @@
 # FEs-Inverse-Design
-This repository contains the source code and datasets for the research paper: "Active learning in latent spaces enables rapid inverse design of ferroelectric ceramics for energy storage. Nat Commun (2026). https://doi.org/10.1038/s41467-026-70792-7".
+This repository contains the source code and datasets for the research paper: "Active learning in latent spaces enables rapid inverse design of ferroelectric ceramics for energy storage".
 
 
 ---
@@ -22,3 +22,6 @@ cVAE/: Code for training the Conditional Variational Autoencoder and reconstruct
 ActiveLearning/: Latent space optimization algorithm, Surrogate model as fitness function of optimization algorithm, uncertainty quantification.
 
 README/: Docs
+
+## Citation
+Xi, Z., Wang, Z., Guo, C. et al. Active learning in latent spaces enables rapid inverse design of ferroelectric ceramics for energy storage. Nat Commun (2026). https://doi.org/10.1038/s41467-026-70792-7
