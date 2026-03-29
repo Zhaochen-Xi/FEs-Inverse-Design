@@ -154,32 +154,3 @@ class NSGAII:
         mutated[self.fraction_indices] = np.clip(mutated[self.fraction_indices], 0, 1)
 
         return mutated
-
-    def evolve(self, parent_pop, parent_obj, offspring_pop, offspring_obj):
-        combined_pop = np.vstack([parent_pop, offspring_pop])
-        combined_obj = np.vstack([parent_obj, offspring_obj])
-
-        fronts = self.fast_non_dominated_sort(combined_pop, combined_obj)
-
-        new_pop = np.empty((self.pop_size, combined_pop.shape[1]))
-        new_obj = np.empty((self.pop_size, combined_obj.shape[1]))
-        fill = 0
-
-        for front in fronts:
-            if len(front) == 0:
-                continue
-            front_size = len(front)
-            if fill + front_size <= self.pop_size:
-                new_pop[fill:fill + front_size] = combined_pop[front]
-                new_obj[fill:fill + front_size] = combined_obj[front]
-                fill += front_size
-            else:
-                remaining = self.pop_size - fill
-                last_front = np.array(front, dtype=int)
-                crowding = self.crowding_distance(last_front, combined_obj)
-                selected = last_front[np.argsort(-crowding)[:remaining]]
-                new_pop[fill:] = combined_pop[selected]
-                new_obj[fill:] = combined_obj[selected]
-                break
-
-        return new_pop, new_obj
