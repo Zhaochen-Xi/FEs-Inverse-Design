@@ -24,4 +24,4 @@ ActiveLearning/: Latent space optimization algorithm, Surrogate model as fitness
 README/: Docs
 
 ## Citation
-Xi, Z., Wang, Z., Guo, C. et al. Active learning in latent spaces enables rapid inverse design of ferroelectric ceramics for energy storage. Nat Commun (2026). https://doi.org/10.1038/s41467-026-70792-7
+Xi, Z., Wang, Z., Guo, C. et al. Active learning in latent spaces enables rapid inverse design of ferroelectric ceramics for energy storage. **_Nat Commun_** (2026). https://doi.org/10.1038/s41467-026-70792-7
